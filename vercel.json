@@ -1,1 +1,7 @@
-{"version":2,"builds":[{"src":"pages/index.js","use":"@vercel/next"}]}},{
+{
+  "buildCommand": "npm run build",
+  "framework": "nextjs",
+  "env": {
+    "META_AI_API_KEY": "@meta_ai_api_key"
+  }
+}
