@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta AI Prompt Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Meta AI Prompt Generator</h1>
+    </header>
+    <main>
+        <section>
+            <label for="prompt-type">Select Prompt Type:</label>
+            <select id="prompt-type">
+                <option value="image">Image</option>
+                <option value="video">Video</option>
+            </select>
+        </section>
+        <section>
+            <label for="aspect-ratio">Select Aspect Ratio:</label>
+            <select id="aspect-ratio">
+                <option value="16:9">16:9</option>
+                <option value="4:3">4:3</option>
+                <option value="1:1">1:1</option>
+            </select>
+        </section>
+        <section>
+            <button id="generate-button">Generate Prompt</button>
+            <textarea id="prompt-output" readonly></textarea>
+            <button id="copy-button">Copy to Clipboard</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
