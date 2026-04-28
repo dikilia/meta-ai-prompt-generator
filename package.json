@@ -1,0 +1,1 @@
+{"name":"meta-ai-prompt-generator","version":"1.0.0","main":"index.js","scripts":{"build":"next build","start":"next start"},"dependencies":{"next":"latest","react":"latest","react-dom":"latest"}}
